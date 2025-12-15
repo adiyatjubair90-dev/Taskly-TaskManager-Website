@@ -171,6 +171,13 @@ Taskly/
 ├── Taskly.png          # Application logo
 └── README.md           # This file
 ```
+Flow Chart Design of the entire website:
+
+<img width="683" height="679" alt="Image" src="https://github.com/user-attachments/assets/5e11bb47-c407-4666-9524-3759f7cad67c" />
+
+UML Diagram design of the entire website:
+
+<img width="1352" height="543" alt="Image" src="https://github.com/user-attachments/assets/9bceac29-bb41-4610-9e8a-343849b4f619" />
 
 ## Support
 
