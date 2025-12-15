@@ -170,52 +170,6 @@ Taskly/
 └── README.md           # This file
 ```
 
-## Security Features
-
-- Password hashing using PHP's `password_hash()` function
-- Prepared SQL statements to prevent SQL injection
-- Session management for secure authentication
-- Input validation and sanitization
-- Email format validation
-- Password confirmation matching
-
-## Browser Compatibility
-
-- Chrome (latest)
-- Firefox (latest)
-- Edge (latest)
-- Safari (latest)
-
-## Future Enhancements
-
-Potential features for future versions:
-- Task editing functionality
-- Task search functionality
-- Email notifications for due dates
-- Task priority levels
-- Task tags/labels
-- Export tasks to CSV/PDF
-- Dark mode theme
-- Mobile app version
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Author
-
-Created with ❤️ for efficient task management.
-
 ## Support
 
 If you encounter any issues or have questions, please open an issue on the GitHub repository.
@@ -223,4 +177,5 @@ If you encounter any issues or have questions, please open an issue on the GitHu
 ---
 
 **Note**: Make sure to keep your database credentials secure and never commit sensitive information to version control.
+
 
