@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <img class="img" src="Taskly.png" alt="Taskly Logo"> <!-- Logo Image -->
+    <main class="container" role="main">
+        <div class="brand">
+            <h1 id="registerTitle">Create your account</h1>
+        </div>
+            <form action="register.php" method="post"> <!--Sets method and calls JS function-->
+            <label class="label" for="email">Email</label>
+            <input class="input" type="email" id="email" name="email" placeholder="name@example.com"> <!--Email Input-->
+
+            <label class="label" for="username">Username</label>
+            <input class="input" type="text" id="username" name="username" placeholder="Username"> <!--Username Input-->
+            <div>
+                <div>
+                    <label class="label" for="password">Password</label>
+                    <input class="input" type="password" id="password" name="password" placeholder="At least 8 characters"> <!--Password Input-->
+                </div>
+                <div>
+                    <label class="label" for="confirm">Confirm</label>
+                    <input class="input" type="password" id="confirm" name="confirm" placeholder="Repeat password"> <!--Confirm Password Input-->
+                </div>
+            </div>
+
+            <button class="button" type="submit">Create account</button> <!--Confirms Registration-->
+
+            <div class="footer">
+                Already have an account?<a href="login.html">Sign in</a> <!--Directs to login-->
+            </div>
+        </form>
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>
+

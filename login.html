@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in</title> <!-- Page Name -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <img class="img" src="Taskly.png" alt="Taskly Logo"> <!-- Logo Image -->
+
+    <main class="container" role="main">
+        <div class="brand">
+            <h1 id="signinTitle">Sign in to your account</h1>
+        </div>
+        <form action="login.php" method="post" onsubmit="return validateLogin(event)"> <!--Sets method and calls JS function-->
+            <label class="label" for="email">Email</label>
+            <input class="input" type="email" id="email" name="email" placeholder="name@example.com"> <!--Email Input-->
+
+            <div>
+                <label class="label" for="password">Password</label>
+                <button class="reveal" type="button">👁</button>
+            </div>
+
+            <input class="input" type="password" id="password" name="password" placeholder="••••••••"> <!--Password Input-->
+
+            <button class="button" type="submit">Log in</button> <!--Submits login and validates-->
+
+            <div class="footer">
+                Don't have an account? <a href="register.html">Create one</a> <!--Directs to register-->
+            </div>
+        </form>
+    </main>
+
+    <script src="login.js"></script>
+</body>
+</html>

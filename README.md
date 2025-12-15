@@ -39,8 +39,8 @@ A modern, feature-rich task management web application built with PHP, MySQL, an
 ## Technologies Used
 
 - **Backend**: PHP 7.4+
-- **Database**: MySQL (via MySQL)
-- **Frontend**: HTML, CSS, JavaScript
+- **Database**: MySQL (via MySQLi)
+- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
 - **Server**: Apache (WAMP/XAMPP compatible)
 
 ## Prerequisites
@@ -49,7 +49,6 @@ A modern, feature-rich task management web application built with PHP, MySQL, an
 - MySQL 5.7 or higher
 - Apache web server (or WAMP/XAMPP)
 - Modern web browser
-- IDE Such as VS Code, Cursor ETC
 
 ## Installation
 
@@ -179,6 +178,43 @@ Taskly/
 - Input validation and sanitization
 - Email format validation
 - Password confirmation matching
+
+## Browser Compatibility
+
+- Chrome (latest)
+- Firefox (latest)
+- Edge (latest)
+- Safari (latest)
+
+## Future Enhancements
+
+Potential features for future versions:
+- Task editing functionality
+- Task search functionality
+- Email notifications for due dates
+- Task priority levels
+- Task tags/labels
+- Export tasks to CSV/PDF
+- Dark mode theme
+- Mobile app version
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Author
+
+Created with ❤️ for efficient task management.
 
 ## Support
 
