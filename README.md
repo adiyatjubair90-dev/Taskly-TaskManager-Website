@@ -1,6 +1,8 @@
 # Taskly
 
 A modern, feature-rich task management web application built with PHP, MySQL, and vanilla JavaScript. Taskly helps you organize, track, and manage your tasks efficiently with multiple viewing options and powerful filtering capabilities.
+## VIDEO DEMO:
+https://github.com/user-attachments/assets/4b382b7a-d0fd-4448-91d9-9270b9d5c638
 
 ## Features
 
@@ -177,5 +179,6 @@ If you encounter any issues or have questions, please open an issue on the GitHu
 ---
 
 **Note**: Make sure to keep your database credentials secure and never commit sensitive information to version control.
+
 
 
